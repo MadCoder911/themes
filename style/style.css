@@ -1,0 +1,15 @@
+.section {
+  transition: transform 1s, opacity 1s;
+}
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+.list-group-item {
+  border: none;
+}
+.list-group .active {
+  border: none;
+  color: #0d6efd;
+  background-color: white;
+}
